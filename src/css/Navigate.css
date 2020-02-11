@@ -1,0 +1,41 @@
+.head{
+    background-color:#7268A6 ;
+    color: white;
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    min-height: 10vh;
+}
+
+.nav-links{
+    display: flex;
+    justify-content: space-around;
+    width: 50%;
+    align-items: center;
+    list-style: none;
+    font-weight: bold;
+}
+.home-selected{
+    background-color: rgb(105, 28, 117);
+    width:150px;
+    padding: 5px 10px;
+    border-radius: 5px;
+    margin-left: -100px;
+}
+.bg{
+    background-image: url(../bgImage1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 650px;
+}
+.link{
+    color:white;
+    cursor: pointer;
+    margin-left: -100px;
+}
+.mess{
+    color: white;
+    align-content: right;
+    text-align: right;
+    margin-right: -400px;
+}
